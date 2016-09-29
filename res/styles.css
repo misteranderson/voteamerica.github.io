@@ -125,6 +125,14 @@ label.collection {
     font-size: 18px;
 }
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
 .time-range-slider {
     margin-bottom: 50px;
     margin-left: 20px;
