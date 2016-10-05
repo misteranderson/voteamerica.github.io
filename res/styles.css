@@ -9,7 +9,10 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-a, a:visited, a:active, a:hover {
+a,
+a:visited,
+a:active,
+a:hover {
     text-decoration: underline;
     color: #e64a4a;
 }
@@ -41,13 +44,13 @@ h5 {
     color: #999;
 }
 
-.panel > .panel-heading {
+.panel>.panel-heading {
     background-color: #297bbb;
 }
 
 .panel-title {
     text-transform: uppercase;
-    color: #fff; 
+    color: #fff;
 }
 
 .btn {
@@ -65,6 +68,13 @@ h5 {
     color: #fff;
 }
 
+/* 
+    background:#000;   
+    display: inline;
+    padding: 0.5 rem;
+*/
+
+
 /* how to register to vote */
 
 .rock-image {
@@ -76,10 +86,12 @@ h5 {
     margin-left: -10px;
 }
 
-.rock-vote-support, .state-caption {
+.rock-vote-support,
+.state-caption {
     color: #297bbb;
     font-weight: bold;
 }
+
 .rock-vote-support {
     padding-top: 10px;
 }
@@ -94,9 +106,9 @@ a.election-protection-link {
     font-weight: bold;
 }
 
-label.collection { 
+label.collection {
     font-weight: 400;
-    padding: 5px; 
+    padding: 5px;
 }
 
 .miles {
@@ -105,20 +117,22 @@ label.collection {
     border: none;
     border: 1px solid lightgrey;
     border-radius: 4px;
-
 }
+
+
 /* dropdown: Am I register?, Check Your Polling Location*/
 
-.state-dropdown, .state-caption { 
-    display: inline-block; 
+.state-dropdown,
+.state-caption {
+    display: inline-block;
 }
 
-
-.state-caption { 
-    text-align: left; 
+.state-caption {
+    text-align: left;
     padding-right: 10px;
     font-size: 16px;
-    margin-bottom: 4px;}
+    margin-bottom: 4px;
+}
 
 .location-dropdown {
     margin: 14px;
@@ -127,12 +141,14 @@ label.collection {
 
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
+
 input[type="number"] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
+
 .time-range-slider {
     margin-bottom: 50px;
     margin-left: 20px;
@@ -163,7 +179,6 @@ input[type="number"] {
 
 h5 {
     font-size: 1.2em;
-
 }
 
 #rider-available-times {
