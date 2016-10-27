@@ -128,7 +128,7 @@
 
         <div id="forms" class="forms wrapper offset-top">
             <form id="need-ride" name="needRide" action="https://api.carpoolvote.com/live/rider" method="post" class="ride-form" role="form" aria-hidden="true">
-                <input type="hidden" name="_redirect" class="redirect" value="http://carpoolvote.com/thanks-driver/" />
+                <input type="hidden" name="_redirect" class="redirect" value="http://carpoolvote.com/thanks-rider/" />
                 <div class="bannerbox">
                     <h2 class="bannerbox__title">I need a ride</h2>
                     <div class="bannerbox__content">
@@ -275,7 +275,7 @@
             </form>
 
             <form id="offer-ride" name="offerRide" action="https://api.carpoolvote.com/live/driver" method="post" class="ride-form" role="form" aria-hidden="true">
-                <input type="hidden" name="_redirect" class="redirect" value="http://carpoolvote.com/thanks-rider/" />
+                <input type="hidden" name="_redirect" class="redirect" value="http://carpoolvote.com/thanks-driver/" />
                 <div class="bannerbox">
                     <h2 class="bannerbox__title">I can offer a ride</h2>
                     <div class="bannerbox__content">
@@ -511,7 +511,7 @@
 
     <footer class="footer">
         <div class="wrapper">
-            <p><strong>Contact us:</strong> <a href="mailto:together@carpoolvote.com">together@carpoolvote.com</a></p>
+            <p><strong>Contact us:</strong><div style="float:right;"><a href="/terms-conditions.html" class="nav__link story" id="story-link">Terms &amp; Conditions</a></div> <a href="mailto:together@carpoolvote.com">together@carpoolvote.com</a></p>
             <form class="newsletter form-group" data-toggle="validator" role="form">
                 <label class="newsletter__label" for="newsletter-email">Sign up for our newsletter</label>
                 <input class="form-input input newsletter__input" id="newsletter-email" type="email" placeholder="email address" required />
